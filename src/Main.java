@@ -1,12 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         int cost = 7499;
-        int readout = 20;
         int mile;
-        if (cost < readout) {
+        if (cost < 20) {
             mile = 0;
         } else {
-            mile = cost / readout;
+            mile = cost / 20;
         }
         System.out.println("Начислится бесплатных миль: " + mile);
     }
